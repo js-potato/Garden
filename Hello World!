@@ -1,0 +1,13 @@
+/**
+ * 打印Hello World
+ * Java
+ * @author js-potato
+ * 2020-3-22
+ */
+public class HelloWorld {
+	//主程序入口
+	public static void main(String[] args) {
+		//打印hello world
+		System.out.print("Hello World!");
+	}
+}
