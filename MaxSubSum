@@ -42,9 +42,7 @@ class MaxSum {
                max = sum;       	
            }
        }
-       if(max == summax) {			//全项转子项
-    	   max -= (array[0] > array[length - 1]) ? array[length - 1] : array[0];
-       }
+      
        return max;
     }  
 }
